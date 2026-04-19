@@ -1,0 +1,5 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"PCB","PCB for both receiver and transmitter",1,5.50,"","JLCPCB"
+"Esp32 38 pin","Receiver Esp32",1,5.73,"https://de.aliexpress.com/item/1005006613312645.html","Aliexpress"
+"Esp32 Wrover Cam OV5640","Capturing images and computing transmission",1,9.00,"https://de.aliexpress.com/item/1005006705436186.html","Aliexpress"
+"2 pieces Ebyte E01-2G4M27D","One for transmitter, one for receiver",1,11.90,"https://de.aliexpress.com/item/1005003212341678.html","Aliexpress"
