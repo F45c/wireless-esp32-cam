@@ -1,4 +1,4 @@
-[Wireless Esp32-Cam-bom.csv](https://github.com/user-attachments/files/26871883/Wireless.Esp32-Cam-bom.csv)# Wireless Esp32-Camera using nRF24l01+
+# Wireless Esp32-Camera using nRF24l01+
 
 ### What is it?
 
