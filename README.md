@@ -28,6 +28,7 @@ Using some cheaper modules and some perfboards, I made a prototype which I used 
 
 |Name|Purpose|Quantity|Total Cost (USD)|Link|Distributor|
 |----|------|---|------|------------|-----------|
+|3.7v LiPo battery|Battery for transmitter|1|21.18|https://www.conrad.de/de/p/akyga-lp675568-akkupack-x-spezial-akku-lipo-3-7-v-3500-mah-3385862.html|Conrad|
 |PCB|PCB for both receiver and transmitter|1|5.5||JLCPCB|
 |Esp32 38 pin|Receiver Esp32|1|5.73|https://de.aliexpress.com/item/1005006613312645.html|Aliexpress|
 |Esp32 Wrover Cam OV5640|Capturing images and computing transmission|1|9|https://de.aliexpress.com/item/1005006705436186.html|Aliexpress|
