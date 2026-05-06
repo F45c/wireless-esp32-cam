@@ -21,6 +21,8 @@ Those chunks are transmitted on 2.4 ghz on a high channel like 74 preventing con
 
 The nRF24 uses a proprietary protocol with GFSK (Gaussian Frequency Shift Keying).
 
+![](https://github.com/F45c/wireless-esp32-cam/blob/4ec442fce8e9c3328b5b851075165537184033eb/images/transmission_process.svg)
+
 
 #### The Receiver
 The receiver separates the 32 byte chunks into 16 byte chunks for decryption following the transmission over Serial to the Computer.
@@ -35,13 +37,18 @@ The Computer runs a python script saving the data to an image file.
 
 ### Prototyping
 
-Using some cheaper modules and some perfboards, I made a prototype which I used to transmit and receive this image
+Using some cheaper modules and some perfboards, I made a prototype which I used to transmit and receive this image.
+
+It's still low quality because of the bad prototype hardware. The final build with the PCB should be able to send higher quality and resolution images with less error rate and faster speeds
 
 ![](https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/received_image.png)
 
 ### PCB Design
+<p float="left">
+  <img src="https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/3d_pcb_final_touch.png" alt="" style="width:40%; height:100%;">
+  <img src="https://github.com/F45c/wireless-esp32-cam/blob/393d8cde2f65eac39da4fa23c8ae1cbebf0155d2/images/3d_pcb_with_wrover.png" alt="" style="width:40%; height:100%;">
+</p>
 
-![](https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/3d_pcb_final_touch.png)
 ![](https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/pcb_final_touch.png)
 
 ### BOM
