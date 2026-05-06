@@ -9,6 +9,26 @@ I'm building a wireless esp32 camera that uses the 2.4 GHZ RF chip nRF24l01+ to 
 My Wifi signal doesn't cover my entire property so I figured I will build a security camera that has a higher distance and can be placed on the edge where no normal camera would get a connection.
 Also, out on my field, I can monitor all my stuff that's stored there from home and watch the animals walk around at night from a few hundred meters away.
 
+### How it works
+
+
+#### The Transmitter
+The image is captured and divided into chunks of 32 bytes.
+
+Then those chunks are split into 16 byte chunks for separately encrypting them using AES-128 (symmetric encryption).
+
+Those chunks are transmitted on 2.4 ghz on a high channel like 74 preventing conflicts with wifi.
+
+The nRF24 uses a proprietary protocol with GFSK (Gaussian Frequency Shift Keying).
+
+
+#### The Receiver
+The receiver separates the 32 byte chunks into 16 byte chunks for decryption following the transmission over Serial to the Computer.
+
+The Computer runs a python script saving the data to an image file.
+
+
+
 ### 3D Model
 ![](https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/3d_model_open.png)
 ![](https://github.com/F45c/wireless-esp32-cam/blob/4302deed90e64e07422e6db8d4a3dc765364d484/images/3d_model_closed.png)
