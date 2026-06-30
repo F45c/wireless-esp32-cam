@@ -9,6 +9,20 @@ I'm building a wireless esp32 camera that uses the 2.4 GHZ RF chip nRF24l01+ to 
 My Wifi signal doesn't cover my entire property so I figured I will build a security camera that has a higher distance and can be placed on the edge where no normal camera would get a connection.
 Also, out on my field, I can monitor all my stuff that's stored there from home and watch the animals walk around at night from a few hundred meters away.
 
+### Build
+
+These are the PCBs with the modules plugged into the PinSockets
+
+![](https://github.com/F45c/wireless-esp32-cam/blob/6dcc7bd3e4a66ded2e61638f5afc61843261d21e/images/pcbs_finished.jpg)
+
+This is the finished build with the camera and antennas and its working great!
+
+![](https://github.com/F45c/wireless-esp32-cam/blob/6dcc7bd3e4a66ded2e61638f5afc61843261d21e/images/build.jpg)
+
+The final build is way faster than the prototype and reaches a lot further even through walls.
+
+
+
 ### How it works
 
 
